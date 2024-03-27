@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+}
+main .blog-card {
+  padding: 20px;
+  width: 300px;
+  height: 450px;
+  border: solid 0.5px hsl(0, 0%, 7%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
+}
+main .blog-card:hover {
+  cursor: pointer;
+  box-shadow: 12px 12px 0px 0px rgb(0, 0, 0);
+}
+main .blog-card:hover .content .title {
+  color: hsl(47, 88%, 63%);
+}
+main .blog-card .blog-img {
+  background-image: url("../assets/images/illustration-article.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40%;
+  width: 100%;
+  border-radius: 15px;
+}
+main .blog-card .content .pill {
+  background-color: hsl(47, 88%, 63%);
+  width: 85px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 25px;
+  padding: 5px 0;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+main .blog-card .content .published-date {
+  color: hsl(0, 0%, 7%);
+  margin-top: 15px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+main .blog-card .content .title {
+  font-size: 1.15rem;
+  color: hsl(0, 0%, 7%);
+  margin-top: 20px;
+  font-weight: 800;
+}
+main .blog-card .content .text {
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 50%);
+  margin-top: 15px;
+  font-weight: 500;
+  line-height: 1.3rem;
+}
+main .blog-card .content .profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+main .blog-card .content .profile img {
+  width: 32px;
+  margin-right: 10px;
+}
+main .blog-card .content .profile .profile-name {
+  font-size: 0.85rem;
+  font-weight: 800;
+}/*# sourceMappingURL=styles.css.map */
