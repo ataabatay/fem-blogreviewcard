@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [AAA | Blog card challenge](https://fem-blogreviewcard-3wzpb2tek-ata-abatays-projects.vercel.app/)
+- Live Site URL: [AAA | Blog card challenge](https://fem-blogreviewcard.vercel.app/)
 
 ## My process
 
